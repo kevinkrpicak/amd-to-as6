@@ -15,7 +15,7 @@ var JSXParser = acorn.Parser.extend(jsx());
  * @returns {string}
  */
 function convert (source, options) {
-
+    console.log('test new');
     options = options || {};
 
     var dependenciesMap = {};
